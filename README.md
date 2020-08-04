@@ -1,7 +1,7 @@
 # JavaScript游戏练习
 ## 扫雷游戏
 ### 演示
-link(https://github.com/VendettaMask/JavaScriptGame/sweper/index.html)
+[演示地址](http://test.vonallen.net/sweeper/)
 ### 上手指南
 本文讲帮助你理解创建扫雷游戏中的关键步骤，具体细节请参考下述章节。
 ### 基础要求
