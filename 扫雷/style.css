@@ -1,0 +1,78 @@
+.box{
+    width: 500px;
+    height: 500px;
+    /* padding: 50px 50px; */
+    margin: 100px auto;
+    margin-bottom: 0;
+    display: flex;
+}
+.grid {
+    width: 460px;
+    height: 460px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; justify-content: space-evenly;
+    /* background-color: lightgray; */
+    background-color: lightgrey;
+
+}
+.btn{
+    display: flex;
+    align-items: center; justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 8px 18px;
+    background: rgb(67, 183, 189);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    cursor:pointer;
+}
+.grid div {
+    height: 40px;
+    width: 40px;
+    margin: 0 0;
+    border: solid gray 2px;
+    /* box-shadow: inset 6px 6px 6px 6px burlywood ; */
+}
+.checked{
+    background-color: white;
+    font-size: 180%;
+    font-weight: bolder;
+    text-align: center;
+}
+.bombshow{
+    background-image: url(./boom.svg);
+}
+
+.one{
+    color: rgb(8, 153, 235);
+    
+    /* inline-hight: 40px;
+    text-size-adjust: auto; */
+}
+.two{
+    color: rgb(255, 45, 178);
+}
+.three{
+    color: rgb(109, 224, 176);
+}
+.four{
+    color: rgb(8, 153, 235);
+}
+.five{
+    color: rgb(255, 167, 45);
+}
+.six{
+    color: rgb(49, 140, 102);
+}
+.seven{
+    color: rgb(168, 55, 237);
+}
+.eight{
+    color: rgb(15, 254, 154);
+}
+.flags{
+    background-image: url(./flag.svg)
+}
